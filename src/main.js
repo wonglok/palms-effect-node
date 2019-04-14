@@ -16,6 +16,7 @@ let baseCSS = `
 document.querySelector('html').style.overflow = 'hidden'
 
 let base = document.createElement('div')
+base.id = 'enos-yo-div'
 base.style.cssText = baseCSS
 document.body.appendChild(base)
 
