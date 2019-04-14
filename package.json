@@ -6,7 +6,11 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lib": "vue-cli-service build --target wc --name yo-enos --dest dist/lib",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "github": "git add .; git commit -am \"github backup\"; git push -u origin master",
+    "deploy": "npm run github;",
+    "deploy-old": "npm run github; npm run build; npm run cp; npm run netlify;",
+    "ssl": "local-ssl-proxy --source 9000 --target 8080"
   },
   "dependencies": {
     "core-js": "^2.6.5",
