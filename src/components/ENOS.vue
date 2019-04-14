@@ -4,7 +4,7 @@
 
     <div class="logo">
       <a href="http://palms.polyu.edu.hk/" alt="PALMS Website">
-        <img class="logo-img" src="https://palms-effect-node.netlify.com/img/logo.png" alt="">
+        <img class="logo-img" src="../assets/logo.png" alt="">
       </a>
     </div>
   </div>
