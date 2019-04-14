@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" class="yoenos">
     <ENOS />
   </div>
 </template>
@@ -16,6 +16,15 @@ export default {
 </script>
 
 <style>
+.yoenos{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 10;
+  height: 100%;
+  background-color: #f1f1f1;
+}
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
