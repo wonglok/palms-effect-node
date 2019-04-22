@@ -1,5 +1,5 @@
 <template>
-  <div id="app" class="yoenos">
+  <div id="appappapp" class="yoenos">
     <ENOS />
   </div>
 </template>
@@ -8,7 +8,7 @@
 import ENOS from './components/ENOS.vue'
 
 export default {
-  name: 'app',
+  name: 'appappapp',
   components: {
     ENOS
   }
@@ -16,22 +16,13 @@ export default {
 </script>
 
 <style>
-.yoenos{
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  width: 100%;
-  z-index: 10;
-  height: 100%;
-  background-color: #f1f1f1;
-}
-#app {
+#appappapp {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
 }
-html, #app, body{
+html, #appappapp, body{
   height: 100%;
   margin: 0px;
 }
